@@ -28,8 +28,8 @@ To switch between methods, check out the respective branch:
 # For MySQLi (default)
 git checkout main
 
-# For PDO
-git checkout pdo
+# For PDO (master)
+git checkout master
 ```
 
 
