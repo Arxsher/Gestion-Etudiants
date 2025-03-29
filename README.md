@@ -18,6 +18,21 @@ A simple student management system built with PHP and MySQL. This application pr
 - **MySQL**: Database for storing student records.
 - **HTML/CSS**: Frontend design and layout.
 
+## Database Methods
+This project uses two different approaches to database interaction:
+1. **MySQLi**: The `main` branch uses the MySQLi extension for database operations.
+2. **PDO**: The `pdo` branch uses PHP Data Objects (PDO) for database operations.
+
+To switch between methods, check out the respective branch:
+```bash
+# For MySQLi (default)
+git checkout main
+
+# For PDO
+git checkout pdo
+```
+
+
 ## Installation
 1. Clone the repository:
    ```bash
